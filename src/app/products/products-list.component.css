@@ -1,0 +1,16 @@
+table, td, th {
+    border: 1px solid black;
+    margin-bottom: 10px; 
+}
+
+#list-title{
+color:teal;
+}
+
+#table_head{
+    color:darkred;
+}
+
+.table_rows{
+    color:darkblue;
+}

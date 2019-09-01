@@ -1,0 +1,19 @@
+<div class='panel panel-primary' style="margin-top: 20px">
+    <div class='panel-body'>
+        <h3 id="list-title">Products List - Amazon</h3>
+        <table class='table table-striped'>
+            <thead>
+                <tr id="table_head">
+                    <th>Name</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let employee of employees' class="table_rows">
+                    <td>{{ employee.name }}</td>
+                    <td>{{ employee.quantity }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
